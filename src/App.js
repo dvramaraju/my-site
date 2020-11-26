@@ -9,8 +9,8 @@ function App() {
 function Welcome({ name }) {
   return (
     <center>
-      <h1 className="text-shadow" style={{ backgroundColor: "white", width: 500, padding: 10, margin: 15 }}>
-        Hello, there my Friend {name ? name : "🤠"}
+      <h1 className="text-shadow" style={{ border: "thick double #32a1ce",backgroundColor: "white", width: 500, padding: 10, margin: 15 }}>
+        {name ? `Hello, there my Friend ${name }`: "Your details not found please login again 🤠"}
       </h1>
     </center>
   );
