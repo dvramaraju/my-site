@@ -19,7 +19,7 @@ export default class Toggle extends Component {
   render() {
     return (
       <>
-      <Button variant="primary" onClick={this.handleClick}>
+      <Button variant="primary" onClick={this.handleClick} style={{fontSize:18, marginTop:12, textAlign:'center', marginRight:8}}>
         {this.state.isToggleOn ? 'ON' : 'OFF'}
       </Button>
       </>

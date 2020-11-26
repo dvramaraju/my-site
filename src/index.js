@@ -7,10 +7,10 @@ import Toggle from './Toggle';
 function tick() {
   const element = (
     <div className='dark-mode'>
-      <div style={{ display:'flex', backgroundColor: 'rgba(170, 50, 220, .6)', fontSize: 30, textAlign: "center", justifyContent:'space-between' }}>
-        <h2>Time: {new Date().toLocaleTimeString()}, Date: {new Date().toLocaleDateString()}</h2>
+      <div style={{ display:'flex', backgroundColor: 'rgba(170, 50, 220, .6)', fontSize: 25, textAlign: "center", justifyContent:'space-between' }}>
+        <h2 style={{padding:2}}>Time: {new Date().toLocaleTimeString()}, Date: {new Date().toLocaleDateString()}</h2>
         <div>
-          <Toggle />&nbsp;
+          <Toggle />
         </div>
       </div>
       <App />
