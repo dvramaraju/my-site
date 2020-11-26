@@ -6,7 +6,7 @@ import App from './App';
 function tick() {
   const element = (
     <div>
-      <h2>Date:{new Date().toLocaleTimeString()}</h2>
+      <h2>Date: {new Date().toLocaleTimeString()}, Date: {new Date().toLocaleDateString()}</h2>
       <App />,
     </div>
   );
